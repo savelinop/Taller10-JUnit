@@ -42,27 +42,56 @@ public class OperationsTest {
      */
     @Test
     public void testMakeFormula() {
-        System.out.println("MakeFormula");
-        String expResult = "";
-        String result = Operations.MakeFormula();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        String resultado = Operations.Solve("10+2*5");
+        assertEquals("10+2*5=20", resultado);
     }
 
     /**
      * Test of Solve method, of class Operations.
      */
     @Test
-        @DisplayName("Prueba de construccion")
-    public void testSolve() {
-        System.out.println("Solve");
-        String formula = "";
-        String expResult = "";
-        String result = Operations.Solve(formula);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        @DisplayName("Prueba de solo suma y multiplicacion")
+    public void testSolveSumaMultiplicacion() {
+        String resultado = Operations.Solve("10+2*5");
+        assertEquals("10+2*5=20", resultado);
     }
+
+
+    @Test
+    @DisplayName("Prueba de multiplicacion luego suma")
+    public void testSolveMultiplicacionLuegoSuma() {
+        String resultado = Operations.Solve("8*2+1");
+        assertEquals("8*2+1=17", resultado);
+    }
+
+    @Test
+    @DisplayName("Prueba de solo resta y multiplicacion")
+    public void testSolveRestaMultiplicacion() {
+        String resultado = Operations.Solve("20-5*2");
+        assertEquals("20-5*2=10", resultado);
+    }
+
+    @Test
+    @DisplayName("Prueba de solo suma")
+    public void testSolveSoloSuma() {
+        String resultado = Operations.Solve("7+3+2");
+        assertEquals("7+3+2=12", resultado);
+    }
+
+    @Test
+    @DisplayName("Prueba de solo multiplicacion")
+    public void testSolveMultiplicacion() {
+        String resultado = Operations.Solve("2*3*4");
+        assertEquals("2*3*4=24", resultado);
+    }
+
+    @Test
+    
+    @DisplayName("Prueba de solo Division")
+    public void testSolveDivision() {
+        String resultado = Operations.Solve("12/3+1");
+        assertEquals("12/3+1=5", resultado);
+    }
+
     
 }
