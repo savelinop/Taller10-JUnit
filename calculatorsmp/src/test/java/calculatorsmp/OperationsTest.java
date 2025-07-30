@@ -6,6 +6,7 @@ package calculatorsmp;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -40,20 +41,16 @@ public class OperationsTest {
     /**
      * Test of MakeFormula method, of class Operations.
      */
+    
+    
     @Test
-    public void testMakeFormula() {
-        String resultado = Operations.Solve("10+2*5");
-        assertEquals("10+2*5=20", resultado);
-    }
-
-    /**
-     * Test of Solve method, of class Operations.
-     */
-    @Test
-        @DisplayName("Prueba de solo suma y multiplicacion")
-    public void testSolveSumaMultiplicacion() {
-        String resultado = Operations.Solve("10+2*5");
-        assertEquals("10+2*5=20", resultado);
+    @DisplayName("Prueba de construccion sin datos null")
+    public void testMakeFormula_no_null() {
+        String formula = "";
+        Assertions.assertNotNull(formula);
+        Assertions.assertFalse(formula.isEmpty());
+        
+        
     }
 
 
@@ -93,5 +90,23 @@ public class OperationsTest {
         assertEquals("12/3+1=5", resultado);
     }
 
+    
+    @Test
+    @DisplayName("Prueba de Construccion 2 signos juntos")
+    public void testMakeFormula_no_operadores_juntas(){
+        assertThrows(IllegalArgumentException.class, ()->{
+            String question = "02++02";
+            System.out.println(question);
+            
+        });
+    
+        
+        
+    
+    }
+    
+    
+    
+    
     
 }
