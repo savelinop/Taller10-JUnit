@@ -104,7 +104,18 @@ public class OperationsTest {
         
     
     }
-    
+    @Test
+    public void testSolveDivisionByZero() {
+        String formula = "10/0";
+
+        try {
+        Operations.Solve(formula);
+        Assertions.fail("Expected ArithmeticException");
+        } catch (ArithmeticException var3) {
+        Assertions.assertTrue(true);
+        }
+
+    }
     
     
     
