@@ -41,30 +41,8 @@ public class OperationsTest {
     /**
      * Test of MakeFormula method, of class Operations.
      */
-    @Test
-    public void testMakeFormula() {
-        System.out.println("MakeFormula");
-        String expResult = "";
-        String result = Operations.MakeFormula();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of Solve method, of class Operations.
-     */
-    @Test
-        @DisplayName("Prueba de construccion")
-    public void testSolve() {
-        System.out.println("Solve");
-        String formula = "";
-        String expResult = "";
-        String result = Operations.Solve(formula);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
+    
     @Test
     @DisplayName("Prueba de construccion sin datos null")
     public void testMakeFormula_no_null() {
@@ -73,6 +51,22 @@ public class OperationsTest {
         Assertions.assertFalse(formula.isEmpty());
         
         
+    }
+    
+    @Test
+    @DisplayName("Prueba de Construccion 2 signos juntos")
+    public void testMakeFormula_no_operadores_juntas(){
+        assertThrows(IllegalArgumentException.class, ()->{
+            String question = "02++02";
+            System.out.println(question);
+            
+        });
+        
+        
+        
+        
+        
+    
     }
     
 }
