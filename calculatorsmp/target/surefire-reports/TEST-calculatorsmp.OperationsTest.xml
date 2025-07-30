@@ -4,7 +4,11 @@
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
+<<<<<<< HEAD
     <property name="java.class.path" value="C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp\target\test-classes;C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp\target\classes;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\CltControl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+=======
+    <property name="java.class.path" value="C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp\target\test-classes;C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp\target\classes;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\CltControl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +19,17 @@
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="C:\Users\CltControl\AppData\Local\Temp\surefire5488211588107565196\surefirebooter-20250730141240012_3.jar C:\Users\CltControl\AppData\Local\Temp\surefire5488211588107565196 2025-07-30T14-12-38_136-jvmRun1 surefire-20250730141240012_1tmp surefire_0-20250730141240012_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="calculatorsmp.OperationsTest#testMakeFormula"/>
     <property name="surefire.test.class.path" value="C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp\target\test-classes;C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp\target\classes;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\CltControl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+=======
+    <property name="sun.java.command" value="C:\Users\CltControl\AppData\Local\Temp\surefire3832900926670932056\surefirebooter-20250730143416804_3.jar C:\Users\CltControl\AppData\Local\Temp\surefire3832900926670932056 2025-07-30T14-34-16_702-jvmRun1 surefire-20250730143416804_1tmp surefire_0-20250730143416804_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="calculatorsmp.OperationsTest#testMakeFormula_no_operadores_juntas"/>
+    <property name="surefire.test.class.path" value="C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp\target\test-classes;C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp\target\classes;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\CltControl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\CltControl\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\CltControl"/>
     <property name="user.language" value="es"/>
@@ -26,12 +37,20 @@
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
+<<<<<<< HEAD
     <property name="basedir" value="C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp"/>
+=======
+    <property name="basedir" value="C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp"/>
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\CltControl\AppData\Local\Temp\surefire5488211588107565196\surefirebooter-20250730141240012_3.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\CltControl\AppData\Local\Temp\surefire3832900926670932056\surefirebooter-20250730143416804_3.jar"/>
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -47,7 +66,11 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\CLTCON~1\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.2"/>
+<<<<<<< HEAD
     <property name="user.dir" value="C:\Users\CltControl\Documents\Taller10-JUnit\calculatorsmp"/>
+=======
+    <property name="user.dir" value="C:\Users\CltControl\Documents\GitHub\Taller10-JUnit\calculatorsmp"/>
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,6 +83,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testMakeFormula" classname="calculatorsmp.OperationsTest" time="0.039">
     <failure message="expected: &lt;&gt; but was: &lt;1*63*71&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <> but was: <1*63*71>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
@@ -69,12 +93,25 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
 	at calculatorsmp.OperationsTest.testMakeFormula(OperationsTest.java:48)
+=======
+  <testcase name="testMakeFormula_no_operadores_juntas" classname="calculatorsmp.OperationsTest" time="0.035">
+    <failure message="Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at calculatorsmp.OperationsTest.testMakeFormula_no_operadores_juntas(OperationsTest.java:59)
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ]]></failure>
+<<<<<<< HEAD
     <system-out><![CDATA[MakeFormula
 git modify
+=======
+    <system-out><![CDATA[02++02
+>>>>>>> 360508703baf0f6d7c2089eb0f2bb55b96a873ec
 ]]></system-out>
   </testcase>
 </testsuite>
